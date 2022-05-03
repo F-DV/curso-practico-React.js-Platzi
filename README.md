@@ -1,9 +1,12 @@
 ## curso-practico-React.js-Platzi
 
-# Header en todas las rutas
-- Creamos componente para el Header.jsx y .scss
-- Agregamos el contenido del componente y su estilo
-- Agregamos el Header al Home
+# Todos los componentes y rutas
 
+- Como El Header esta en el container Layout y este engloga todas las pages, todos van a tener el mismo Header
+- Los components son utilizados por los container y las pages.
+- Algunas pages tienen componentes y containers.
+- Se utilizó Atomic Desing
 
-
+pages 
+      |containers
+                 |components
