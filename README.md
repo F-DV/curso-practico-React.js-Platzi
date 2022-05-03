@@ -1,12 +1,8 @@
 ## curso-practico-React.js-Platzi
 
-# Imagenes y Alias en Webpack
-- Creamos carpetas de assets
-- subdividimos la carpeta en iconos y logos
-- Realizamos la configuracion de los rules en webpack.config.js para reconocer este tipo de archivos.
-- Configuramos los alias de los styles en webpack.config.js en la parte de resolve.
-- importamos en el archivo que lo vayamos a usar de esta manera: import '@styles/Header.scss';
--importamos para el assets que queremos usar:
-import menu from '@icons/icon_menu.svg';
-- A la hora de llamarlo, lo llamamos con el nombre de la constante entre llaves src={logo}
-- En webpack 5 no necesitamos un loader para cargar este tipo de archivos
+# React.useState
+- importamos useState
+- Agregamos el onClick al icono del carrito en el ProductItem
+- Agregamos onClick en el header con una funcion handleToggle
+- Le damos un condicional para que salga el menu cuadno demos click en el usuario
+- Le agregamos algunos estilos al menu para que se visualize de mejor forma
