@@ -1,37 +1,11 @@
 ## curso-practico-React.js-Platzi
 
--> Virtual DOM, jsx, Estado, ciclo de vida
-- Proyecto en Figma que se realizará 
+- Todas las etiquetas Html se cierran </> en React
+- class en React es ClassName
+- Puedo trabajar con archivos sass o css sin problema cambiadno la configuracion en webpack.config.js
+- Agregamos las funtes al archivo html con etiquetas link
 
-https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=0%3A2&amp%3Bscaling=scale-down&amp%3Bpage-id=0%3A1&amp%3Bstarting-point-node-id=0%3A719
 
-https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=5%3A2808&amp%3Bscaling=scale-down&amp%3Bpage-id=0%3A998&amp%3Bstarting-point-node-id=5%3A2808
-----------------------------
-
-# Configuracion Inicial para Proyecto con React
-- carpeta
-- git init
-- npm init
-- npm install react react-dom
-- Carpeta src,public
-- Archivos components/App,jsx , src/index.js , public/index.html
-
----------------------------
-
-# Configuracion Webpack y Babel
--  npm install @babel/core @babel/preset-env @babel/preset-react
--  npm intall webpack webpack-cli webpack-dev-server
--  npm install babel-loader html-loader html-webpack-plugin
-- Creamos archivos necesarios: 
-- .babelrc : la configuracion para que babel reconozca los presets
-- webpack.config.js : Se realiza configuración
-- Agregamos los scrips en package.json:
-    "start": "webpack serve --open",
-    "build": "webpack --mode production"
-
-------------------------------
-# Agregando Css y Saas al proyecto
--  npm install mini-css-extract-plugin css-loader sass-loader style-loader sass -D
-- Realizamos configuracion en webpack.config.js
-- Creamos Carpeta Styles
-- creamos archivo global.scss: agregamos configuracion basica para probar
+- Para trabajar con Scss : 
+- Las variables las guardamos en un archivo aparte llamado _vars.scss
+- importamos esa variables en el archivo Login.scss que vamos a utilizar de la siguiente manera: @import'vars'.
