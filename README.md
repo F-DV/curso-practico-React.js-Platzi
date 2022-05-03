@@ -1,15 +1,22 @@
 ## curso-practico-React.js-Platzi
 
-# useRef y Formularios
-# Características y diferencias entre useRef y useState
-- Es una forma mucho mas amigable de trabajar la entrada en los inputs. Es una alternativa al onChange 
+# ReactContext
+# useContext
+Context es una herramienta para pasar propiedades en un arbol de componentes de arriba hacia abjo sin tener que pasar por componentes intermedios.
 
-- useRef es un hook utilizado para obtener una referencia a los datos de un objeto con información mutable. Es decir, es como una manera de siempre poder obtener los datos mas recientes mediante referencia de algún objeto de html. En este caso referenciamos a los valores recientes de un formulario. Dos características importantes de useRef es que los datos son persistentes en caso de que se re-renderice el componente. Así como también, actualizar los datos de esta referencia no causan el re-render. Cabe recalcar la diferencia con useState, que la actualización de datos es síncrona, ya además como hemos mencionado, no se re-renderiza.
+Par usar context debemos importar dos cosas:
+createContext -> Permite crear el contexto
+useContext -> Este hook nos va permitir uusar contextos dentro de los componentes
 
-- importamos y creamos constante form
-- Esta constante la ponemos a escuchar la referencia del <form>
-- cremos objeto FormData que es una funcion de javascript para tratar datos de forma segura y le pasamos como parametro los valores de form
-- creamos objeto para extraer los datos.
-- los inputs deben detener un nombre con name
+1) Creamos Carpeta para el Context
+2) Creamos AppContext que utiliza React.createContext
+3) Envolvemos todos los Componentes en App que queremos que utilizen los value.
+4) Creamos un Custom Hook para crear un estado inicial y la funcion de agregar al carrito.
+5) Proporcionamos el initialState al provider
+6) En el ProductItem le damos a funcionalidad al agregar al carrito.
 
--Lectura FromData: https://developer.mozilla.org/en-US/docs/Web/API/FormData
+-----------
+# Completnado el carrito de compras
+7) Creamos la constante para el contexto
+8) Configuramos el Header para mostrar los items que hay en el carrito
+
