@@ -2,6 +2,7 @@ import React ,{useState} from 'react';
 import '@styles/ProductItem.scss';
 import icon from '@icons/bt_add_to_cart.svg'
 
+
 const ProductItem = () => {
 	const [cart,setCart] = useState([]);
 	
