@@ -5,7 +5,7 @@
 
 https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=0%3A2&amp%3Bscaling=scale-down&amp%3Bpage-id=0%3A1&amp%3Bstarting-point-node-id=0%3A719
 
--https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=5%3A2808&amp%3Bscaling=scale-down&amp%3Bpage-id=0%3A998&amp%3Bstarting-point-node-id=5%3A2808
+https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=5%3A2808&amp%3Bscaling=scale-down&amp%3Bpage-id=0%3A998&amp%3Bstarting-point-node-id=5%3A2808
 ----------------------------
 
 # Configuracion Inicial para Proyecto con React
@@ -28,3 +28,10 @@ https://www.figma.com/proto/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=0%3A2
 - Agregamos los scrips en package.json:
     "start": "webpack serve --open",
     "build": "webpack --mode production"
+
+------------------------------
+# Agregando Css y Saas al proyecto
+-  npm install mini-css-extract-plugin css-loader sass-loader style-loader sass -D
+- Realizamos configuracion en webpack.config.js
+- Creamos Carpeta Styles
+- creamos archivo global.scss: agregamos configuracion basica para probar
