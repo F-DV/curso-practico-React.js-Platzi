@@ -1,12 +1,11 @@
 ## curso-practico-React.js-Platzi
 
-# Todos los componentes y rutas
+# Tipos de Componentes en React
 
-- Como El Header esta en el container Layout y este engloga todas las pages, todos van a tener el mismo Header
-- Los components son utilizados por los container y las pages.
-- Algunas pages tienen componentes y containers.
-- Se utilizó Atomic Desing
+---------
 
-pages 
-      |containers
-                 |components
+# Stateful vs Stateless
+
+- StateFul Components: Componentes de Clase
+- StateLess Components: componentes de Funcion
+- Tambien Existe el tipo HOC
