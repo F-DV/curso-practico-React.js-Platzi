@@ -7,6 +7,7 @@ module.exports={
     output: {
         path: path.resolve(__dirname, 'dist'), //Carpeta de salida
         filename: 'bundle.js',
+        publicPath: '/',
     },
     mode: 'development',
     resolve: {
@@ -54,8 +55,9 @@ module.exports={
         static: {
             directory: path.join(__dirname, 'public'),
             },
-          compress: true,
-          port: 3000,
+            historyApiFallback:true,
+            compress: true,
+            port: 3000,
         
     }
 }

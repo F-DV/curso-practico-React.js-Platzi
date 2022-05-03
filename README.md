@@ -1,11 +1,25 @@
 ## curso-practico-React.js-Platzi
 
-- Todas las etiquetas Html se cierran </> en React
-- class en React es ClassName
-- Puedo trabajar con archivos sass o css sin problema cambiadno la configuracion en webpack.config.js
-- Agregamos las funtes al archivo html con etiquetas link
+# React Router DOM
+- Creamos el Componente RecoveryPassword.jsx y scss.
+- Creamos el estilo y el contenido.
+- Instalamos React-Route: npm install react-router-dom.
+- App sera el componentes de las routes.
+- Creamos la carpeta para alojar las routes.
+- pasamos Appa para esta carpeta routes
+- importamos los recursos de react-router-dom en App:
+- BrowserRouter: Para identificar la navegacion que vamos a estar haciendo hacia adelante y hacia atras
+- Routes: nos permite tener una estructura de control para las rutas
+-> Encapsulamos los componenes en BrowserRoute y entre Routes
+- El Layout es un componente que envuelve los otros componentes.
+- Creamos las Routes dandole como exact el path que tendran y el element(Componente) al cual se dirigira
+
+--------
+
+# Navegacion entre Rutas
+- Creamos Carpeta pages para guardar la paginas de nuestra aplicacion y tener los elemntos separados
+- configuamos webpack para establecer los valores para trabajar los Routes
+- publicPath: '/',
+- historyApiFallback:true
 
 
-- Para trabajar con Scss : 
-- Las variables las guardamos en un archivo aparte llamado _vars.scss
-- importamos esa variables en el archivo Login.scss que vamos a utilizar de la siguiente manera: @import'vars'.
