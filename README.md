@@ -1,19 +1,9 @@
 ## curso-practico-React.js-Platzi
 
-# Orden de Compra
-- En el Header damos la funcionalidad de desplegar MyOrder cuando le damos click al carrito
-- Utilizamos el Contexto para iterar sobre los productos que tengamos en el carrito y mostrarlos en MyOrder.
-
----------
-
-# Calculando precio Total
-- Agregamos funcion que utiliza un .reduce para calcular el precio total de la lista.
-
------------
-
-# Eliminando Elementos del Carrito
-- Vamos al Contexto y Agregamos la Funcion removeFromCart que nos permitira filtar todos los elmentos que sean distindos del que queremos Eliminar.
-- Retornamos esa Funcion para usarla en el componente OrderItem que tiene la imagen de Close.
--Utilizamos el index de los articulos agregados.
-
---------
+# Automatizando el Despliegue con GitHub Actions
+1) Buscamos en el markeplace de Github Deploy to GitHub Pages
+2) Utilizamos la primera opcion
+3) creamos carpeta .github
+4) Creamos archivo deploy.yml
+5) Pegamos los que tenemos en Github Deploy to GitHub Pages
+6) Entendemos el Codigo:
